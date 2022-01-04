@@ -1,5 +1,6 @@
 body {
     background-color: #F9F7EB;
+    margin: 0px;
 }
 
 #homepage {
@@ -25,3 +26,11 @@ body {
     opacity: 0.9;
 }
 
+#aboutpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+}
