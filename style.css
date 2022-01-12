@@ -55,7 +55,26 @@ body {
     padding-top: 70px;
     font-size: 50px;
     font-family: 'Shippori Antique B1', sans-serif;
-    text-decoration: underline;
+}
+
+#aboutcardcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14pt;
+}
+
+.aboutcard {
+    display: block;
+    text-align: center;
+    background-color: brown;
+    height: 200px;
+    width: 250px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 12pt;
 }
 
 #projectpage {
@@ -83,5 +102,7 @@ body {
 }
 
 .pageheader {
+    text-align: center;
     font-size: 40px;
+    text-decoration: underline;
 }
