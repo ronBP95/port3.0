@@ -57,6 +57,16 @@ body {
     font-family: 'Shippori Antique B1', sans-serif;
 }
 
+#aboutcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 75vw;
+    background-color: green;
+}
+
 #aboutcardcontainer {
     display: flex;
     flex-direction: row;
@@ -93,6 +103,34 @@ body {
     justify-content: center;
     align-items: center;
     width: 50vw;
+}
+
+#portraitContainer {
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: chartreuse;
+    height: 40vh;
+    width: 50vw;
+    font-size: 12pt;
+}
+
+#picture {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+#techContainer {
+    display: flex-start;
+    align-items: center;
+    font-size: 12pt;
+    background-color: chocolate;
+    height: 40vh;
+    width: 50vw;
+    font-size: 12pt;
+    line-height: 36pt;
 }
 
 .list {
