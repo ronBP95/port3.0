@@ -103,6 +103,10 @@ body {
     justify-content: center;
     align-items: center;
     width: 50vw;
+    height: 50vh;
+    margin-top: -75px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 #portraitContainer {
@@ -111,9 +115,9 @@ body {
     align-items: center;
     text-align: center;
     background-color: chartreuse;
-    height: 40vh;
+    height: 45vh;
     width: 50vw;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 #picture {
@@ -127,9 +131,9 @@ body {
     align-items: center;
     font-size: 12pt;
     background-color: chocolate;
-    height: 40vh;
+    height: 45vh;
     width: 50vw;
-    font-size: 12pt;
+    font-size: 11pt;
     line-height: 36pt;
 }
 
