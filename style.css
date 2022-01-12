@@ -62,16 +62,21 @@ body {
     flex-direction: row;
     justify-content: space-between;
     font-size: 14pt;
+    /* background-color: cadetblue; */
+    width: 50vw;
+    height: 25vh;
 }
 
 .aboutcard {
     display: block;
     text-align: center;
     background-color: brown;
-    height: 200px;
+    height: 170px;
     width: 250px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: -20px;
+    padding-bottom: 20px;
     font-size: 12pt;
 }
 
@@ -80,6 +85,18 @@ body {
     text-align: center;
     padding: 0%;
     padding-top: 40px;
+}
+
+#aboutBottomcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.list {
+    list-style: none;
 }
 
 #projectpage {
