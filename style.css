@@ -70,11 +70,16 @@ body {
     background-color: brown;
     height: 200px;
     width: 250px;
-    margin-top: -25px;
-    margin-bottom: -25px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 12pt;
+}
+
+#aboutlist {
+    list-style: none;
+    text-align: center;
+    padding: 0%;
+    padding-top: 40px;
 }
 
 #projectpage {
