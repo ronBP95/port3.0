@@ -97,6 +97,11 @@ body {
     padding-top: 40px;
 }
 
+.aboutTitle {
+    font-weight: bold;
+    color:#757575
+}
+
 #aboutBottomcontainer {
     display: flex;
     flex-direction: row;
