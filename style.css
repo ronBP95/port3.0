@@ -234,14 +234,56 @@ a:visited {
 
 #projectpage {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
     width: 100vw;
+    margin: 50px 0px;
     background-color: green;
     padding-top: 70px;
     font-size: 50px;
     font-family: 'Shippori Antique B1', sans-serif;
-    text-decoration: underline;
+}
+
+.project-heading {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-heading h3 {
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.project-heading span {
+    color: #f33c3c;
+}
+
+.project-filter {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid yellow; */
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-right: 50px;
+    list-style: none;
+    height: 7vh;
+    width: 50vw;
+    min-width: 593px;
+    text-align: center;
+}
+
+.project-filter li {
+    margin: 10px;
+    padding: 5px 20px;
+    color: grey;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    text-decoration: none;
 }
 
 #contactbar {
