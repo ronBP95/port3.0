@@ -133,3 +133,7 @@ particlesJS('particles-js',
   }
 
 );
+
+function test() {
+  console.log("this is working")
+}
