@@ -116,40 +116,40 @@
 
         <!-- filter -->
         <ul class="project-filter">
-            <li class="list project-filter-active">All</li>
-            <li class="list">JAVASCRIPT</li>
-            <li class="list">EXPRESS</li>
-            <li class="list">REACT.JS</li>
+            <li class="list project-filter-active" data-filter="all">All</li>
+            <li class="list" data-filter="js">JAVASCRIPT</li>
+            <li class="list" data-filter="express">EXPRESS</li>
+            <li class="list" data-filter="react">REACT.JS</li>
         </ul>
 
         <div class="project-container">
-            <!-- box 1 -->
-            <a href="" class="project-box">
+            <!-- box 1 (js project)-->
+            <a href="" class="project-box js">
                 <img src="images/b-1.jpg" alt="project 1">
             </a>
 
-            <!-- box 2 -->
-            <a href="" class="project-box">
+            <!-- box 2 (express project)-->
+            <a href="" class="project-box express">
                 <img src="images/b-2.jpg" alt="project 2">
             </a>
             
-            <!-- box 3 -->
-            <a href="" class="project-box">
+            <!-- box 3 (react project)-->
+            <a href="" class="project-box react">
                 <img src="images/b-3.jpg" alt="project 3">
             </a>
 
             <!-- box 4 -->
-            <a href="" class="project-box">
+            <a href="" class="project-box js">
                 <img src="images/b-4.jpg" alt="project 4">
             </a>
 
             <!-- box 5 -->
-            <a href="" class="project-box">
+            <a href="" class="project-box express">
                 <img src="images/b-5.jpg" alt="project 5">
             </a>
 
             <!-- box 6 -->
-            <a href="" class="project-box">
+            <a href="" class="project-box react">
                 <img src="images/b-6.jpg" alt="project 6">
             </a>
         </div>
@@ -168,8 +168,23 @@
     <!-- JQUERY -->
     <script type="text/javascript">
 
+        // filter menu function
         $(document).on('click','.project-filter li',function(){
             $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+        })
+
+        // project filter function
+        $(document).ready(function(){
+            $('.list').click(function(){
+                const value = $(this).attr('data-filter');
+                if (value == "all") {
+                    $('.project-box').show('1000');
+                }
+                else {
+                    $('.project-box').not('.'+value).hide('1000');
+                    $('.project-box').filter('.'+value).show('1000');
+                }
+            })
         })
 
     </script>
