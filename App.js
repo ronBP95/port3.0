@@ -134,6 +134,16 @@ particlesJS('particles-js',
 
 );
 
-function test() {
-  console.log("this is working")
+function partLoad() {
+  console.log("Particles.js loaded")
 }
+
+partLoad();
+
+// OVERLAY FUNCTIONS
+
+function mousedOver() {
+  console.log("The mouseover fired off")
+}
+
+
