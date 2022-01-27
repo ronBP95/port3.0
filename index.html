@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Ron's Portfolio</title>
     
+    <!-- JQUERY CDN  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <!-- CSS FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -129,7 +132,14 @@
         <p> | <span style="color:white"> Ron Magpantay </span> | <span style="color:#e31b6d">2022 </span> |</p>
     </div>
 
-    
+    <!-- JQUERY -->
+    <script type="text/javascript">
+
+        $(document).on('click','.project-filter li',function(){
+            $(this).addClass('project-filter-active').siblings().removeClass('project-filter-active')
+        })
+
+    </script>
 
 </body>
 </html
