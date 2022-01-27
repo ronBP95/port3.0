@@ -313,6 +313,13 @@ a:visited {
     letter-spacing: 0.5px;
     font-weight: 400;
     text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+
+.project-filter-active {
+    background-color: #f0f0f0;
+    color: #272727;
 }
 
 #contactbar {
