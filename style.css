@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: black;
     margin: 0px;
@@ -44,16 +48,42 @@ a:visited {
 }
 
 #innerhome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
     padding: 0%;
     text-align: center;
+    line-height: 0.5px;
 }
 
-#homebutton {
+#viewWork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    color: white;
     height: 50px;
-    width: 250px;
-    font-size: 25px;
-    border-radius: 50px;
-    opacity: 0.9;
+    width: 200px;
+    transition: 0.3s;
+}
+
+#viewWork:hover {
+    background: #04c2c9;
+    border: 1px solid #04c2c9;
+    transition: 0.3s;
+}
+
+#arrow {
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+#viewWork:hover #arrow {
+    transform: rotate(90deg);
+    transition: 0.3s;
 }
 
 #aboutpage {
@@ -246,10 +276,7 @@ a:visited {
 }
 
 #toplist2 li {
-    background: #04c2c9;
-    padding: 5px;
-    border-radius: 20%;
-    margin-right: 10px;
+    color: black;
 }
 
 #botlist2 {
@@ -258,10 +285,7 @@ a:visited {
 }
 
 #botlist2 li {
-    background: #04c2c9;
-    padding: 5px;
-    border-radius: 35%;
-    margin-left: 10px;
+    color: black;
 }
 
 .tech {
@@ -354,6 +378,8 @@ a:visited {
     flex-wrap: wrap;
     max-width: 1200px;
     /* margin: auto; */
+    overflow: hidden;
+    margin-right: 50px;
 }
 
 .project-box {
@@ -414,6 +440,31 @@ a:visited {
     color: white;
     background: #e31b6d;
     transition: 0.3s;
+}
+
+#backButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -75px;
+    padding-right: 3px;
+    margin-bottom: 30px;
+    position: relative;
+    background: #e31b6d;
+    height: 60px;
+    width: 50px;
+    transition: 0.3s;
+}
+
+#backButton:hover {
+    transition: 0.3s;
+    background: #ed76d9;
+}
+
+#backArrow {
+    transform: rotate(-90deg);
+    color: white;
 }
 
 #contactbar {
