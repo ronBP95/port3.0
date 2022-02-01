@@ -86,6 +86,26 @@ a:visited {
     transition: 0.3s;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: blue;
+    width: 100vw;
+    height: 10vh;
+}
+
+.navbar li {
+    display: inline;
+    list-style: none;
+}
+
+.navbar a {
+    color: white;
+}
+
 #aboutpage {
     display: flex;
     justify-content: center;
