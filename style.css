@@ -114,6 +114,10 @@ header .logo {
     margin-left: 50px;
 }
 
+header a .logo {
+    background: blue;
+}
+
 header ul {
     position: relative;
     display: flex;
@@ -154,7 +158,11 @@ header.sticky {
     z-index: -1;
 }
 
-.navitem.sticky{
+.navitem.sticky {
+    z-index: 0;
+}
+
+header.logo.sticky {
     z-index: 0;
 }
 
