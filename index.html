@@ -32,7 +32,7 @@
 
     <!-- Navbar -->
     <header>
-        <div class="logo"><span style="color:white">RON MAGPANTAY</span></div>
+        <a href="#" id="logo"><p id="logoText"><span style="color:white">RON MAGPANTAY</span></p></a>
         <ul>
             <li id="home"><a href="#"><span style="color:white">HOME</span></a></li>
             <li id="about"><a href="#aboutpage"><span style="color:white">ABOUT</span></a></li>
@@ -45,6 +45,13 @@
         window.addEventListener("scroll", function() {
             let header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            let logo = document.querySelector("#logo");
+            logo.classList.toggle("sticky", window.scrollY > 0);
         })
     </script>
 
