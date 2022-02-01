@@ -508,7 +508,7 @@ header.sticky {
     flex-wrap: wrap;
     max-width: 1200px;
     /* margin: auto; */
-    overflow: hidden;
+    overflow: auto;
     margin-right: 50px;
 }
 
@@ -618,9 +618,13 @@ header.sticky {
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
-    color: black;
     width: 250px;
     /* background: blue; */
+}
+
+#iconcont i { 
+    color: black;
+    transition: 0.5s;
 }
 
 #iconcont i:hover {
@@ -635,5 +639,7 @@ header.sticky {
 }
 
 
+/* Media Queries */
+@media 
 
 
