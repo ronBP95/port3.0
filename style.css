@@ -63,7 +63,7 @@ a:visited {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid white;
+    border: 3px solid white;
     color: white;
     height: 50px;
     width: 200px;
@@ -72,7 +72,7 @@ a:visited {
 
 #viewWork:hover {
     background: #04c2c9;
-    border: 1px solid #04c2c9;
+    border: 3px solid #04c2c9;
     transition: 0.3s;
 }
 
@@ -114,6 +114,15 @@ header {
     margin-left: 50px;
     transition: 0.6s;
     pointer-events: none;
+    color: white;
+}
+
+.logoText{
+    display: none;
+}
+
+#logo:hover {
+    color: #e31b6d;
 }
 
 #logo.sticky {
@@ -157,6 +166,38 @@ header.sticky {
     transition: 0.6s;
     padding-top: 10px;
     opacity: 1;
+}
+
+#home a {
+    color: white;
+}
+
+#home a:hover {
+    color: #e31b6d;
+}
+
+#about a {
+    color: white;
+}
+
+#about a:hover {
+    color: #e31b6d;
+}
+
+#projects a {
+    color: white;
+}
+
+#projects a:hover {
+    color: #e31b6d;
+}
+
+#socials a {
+    color: white;
+}
+
+#socials a:hover {
+    color: #e31b6d;
 }
 
 #home.sticky {
