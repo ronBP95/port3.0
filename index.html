@@ -55,8 +55,25 @@
         })
     </script>
 
-    <script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            let about = document.querySelector("#about");
+            about.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            let projects = document.querySelector("#projects");
+            projects.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function() {
+            let social = document.querySelector("#socials");
+            social.classList.toggle("sticky", window.scrollY > 0);
+        })
     </script>
 
     <!-- Navbar -->

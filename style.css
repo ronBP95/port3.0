@@ -131,6 +131,7 @@ header ul li {
     position: relative;
     list-style: none;
     margin-right: 25px;
+    z-index: -1;
 }
 
 header ul li a {
@@ -152,6 +153,22 @@ header.sticky {
     transition: 0.6s;
     padding-top: 10px;
     opacity: 1;
+}
+
+#home.sticky {
+    z-index: 0;
+}
+
+#about.sticky {
+    z-index: 0;
+}
+
+#projects.sticky {
+    z-index: 0;
+}
+
+#socials.sticky {
+    z-index: 0;
 }
 
 #aboutpage {
