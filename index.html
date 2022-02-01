@@ -34,10 +34,10 @@
     <header>
         <div class="logo"><span style="color:white">RON MAGPANTAY</span></div>
         <ul>
-            <li class="navitem"><a href="#"><span style="color:white">HOME</span></a></li>
-            <li class="navitem"><a href="#aboutpage"><span style="color:white">ABOUT</span></a></li>
-            <li class="navitem"><a href="#projectpage"><span style="color:white">PROJECTS</span></a></li>
-            <li class="navitem"><a href="#contactbar"><span style="color:white">SOCIALS</span></a></li>
+            <li id="home"><a href="#"><span style="color:white">HOME</span></a></li>
+            <li id="about"><a href="#aboutpage"><span style="color:white">ABOUT</span></a></li>
+            <li id="projects"><a href="#projectpage"><span style="color:white">PROJECTS</span></a></li>
+            <li id="socials"><a href="#contactbar"><span style="color:white">SOCIALS</span></a></li>
         </ul>
     </header>
 
@@ -50,10 +50,13 @@
 
     <script type="text/javascript">
         window.addEventListener("scroll", function() {
-            let navitem = document.querySelector(".navitem");
-            navitem.classList.toggle("sticky", window.scrollY > 0);
-            console.log("Navitem scroll event fired")
+            let home = document.querySelector("#home");
+            home.classList.toggle("sticky", window.scrollY > 0);
         })
+    </script>
+
+    <script>
+
     </script>
 
     <!-- Navbar -->

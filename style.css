@@ -154,19 +154,6 @@ header.sticky {
     opacity: 1;
 }
 
-.navitem {
-    z-index: -1;
-}
-
-.navitem.sticky {
-    z-index: 0;
-}
-
-header.logo.sticky {
-    z-index: 0;
-}
-
-
 #aboutpage {
     display: flex;
     justify-content: center;
