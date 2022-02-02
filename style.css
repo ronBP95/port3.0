@@ -650,6 +650,12 @@ header.sticky {
     }
 }
 
+@media (max-height:700px) {
+    #innerhome {
+        font-size: 12pt;
+    }
+}
+
 @media (max-width:500px) {
     #innerhome {
         font-size: 8pt;
@@ -661,3 +667,13 @@ header.sticky {
     }
 }
 
+@media (max-height:500px) {
+    #innerhome {
+        font-size: 8pt;
+    }
+    
+    #viewWork {
+        height: 35px;
+        width: 150px;
+    }
+}
