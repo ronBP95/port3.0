@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: black;
+    background-color: white;
     margin: 0px;
     padding: 0;
     height: 100vh;
@@ -249,8 +249,10 @@ header.sticky {
     justify-content: space-between;
     font-size: 14pt;
     /* background-color: cadetblue; */
+    margin-top: -50px;
+    margin-bottom: 20px;
     width: 50rem;
-    height: 25rem;
+    height: 15rem;
 }
 
 .aboutcard {
@@ -343,8 +345,9 @@ header.sticky {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 80rem;
-    height: 50rem;
+    width: 50rem;
+    height: 30rem;
+    padding-right: 30px;
     /* background-color: cornflowerblue; */
 }
 
