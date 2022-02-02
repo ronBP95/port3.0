@@ -250,7 +250,6 @@ header.sticky {
     /* background-color: cadetblue; */
     width: 50vw;
     height: 25vh;
-    min-width: 800px;
 }
 
 .aboutcard {
@@ -689,8 +688,13 @@ header.sticky {
 /* About Page */
 
 @media (max-width:800px) {
+
     #aboutcardcontainer {
-        display: inline-block;
+        flex-direction: column;
+        /* background: blueviolet; */
+        width: 396px;
+        height: 800px;
+        align-items: center;
     }
 
     .aboutcard {
@@ -698,12 +702,24 @@ header.sticky {
     }
 
     #aboutBottomcontainer {
-        display: inline-block;
+        flex-direction: column;
+        /* background: green; */
+        margin-right: 25px;
+        height: 800px;
+    }
+
+    #portraitContainer {
+        font-size: 8pt;
+    }
+
+    #aboutpage {
+        height: 1900px;
     }
 
     #aboutcontainer {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        /* background-color: blue; */
+        height: 2000px;
     }
 }
