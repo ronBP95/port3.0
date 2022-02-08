@@ -16,9 +16,9 @@ a:not(.siteAnchor) {
     color: black;
 }
 
-a:visited:not(.siteAnchor) { 
+a:visited { 
     text-decoration: none; 
-    color: black; 
+    color: inherit; 
 }
 
 #particles-js {
@@ -688,7 +688,7 @@ header.sticky {
     position: fixed;
     background: transparent;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.75;
     top: 0;
     left: 0;
     height: 100%;
@@ -720,17 +720,40 @@ header.sticky {
     /* background-color: #04c2c9; */
     width: 35em;
     margin-left: 2.5em;
+    margin-top: 1em;
+    font-family: 'Raleway' ;
+}
+
+.modalHeader {
+    line-height: 0.2em;
+    margin-top: 2.5em;
+}
+
+.modalText h4 {
+    color: #757575;
 }
 
 .modalSite {
     background-color: #e31b6d;
     height: 0.8em;
     width: 6.5em;
-    padding: 1em;
+    padding-top: 0.75em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1.2em;
     margin-left: 2.4em;
     font-family: 'Raleway';
     font-size: 1em;
     color: white;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.modalSite:hover {
+    color: #e31b6d;
+    background: white;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .modalSite i {
@@ -743,7 +766,7 @@ header.sticky {
 
 #modal1 {
     width: 40em;
-    height: 35em;
+    height: 35.5em;
     position: fixed;
     top: 40%;
     left: 50%;
@@ -756,6 +779,29 @@ header.sticky {
 
 hr {
     width: 35em;
+}
+
+.buttonSep {
+    display: flex;
+}
+
+.modalButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalButtons .buttonSep i {
+    color: inherit;
+}
+
+.modalButtons i {
+    color: grey;
+    margin-right: 0.6em;
+    cursor: pointer;
+}
+
+#notice {
+    font-size: 0.75em;
 }
 
 /* Media Queries */

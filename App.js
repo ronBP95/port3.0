@@ -151,7 +151,6 @@ function modal1Up () {
   document.getElementById("overlay").style.zIndex="11"
 }
 
-
 function modal1Down () {
   console.log("overlay shed successfully")
   document.getElementById("overlay").style.zIndex="-10"
