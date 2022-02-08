@@ -11,12 +11,12 @@ body {
     overflow-x: hidden;
 }
 
-a {
+a:not(.siteAnchor) {
     text-decoration: none;
     color: black;
 }
 
-a:visited { 
+a:visited:not(.siteAnchor) { 
     text-decoration: none; 
     color: black; 
 }
@@ -717,9 +717,28 @@ header.sticky {
 }
 
 .modalText {
-    background-color: #04c2c9;
+    /* background-color: #04c2c9; */
     width: 35em;
     margin-left: 2.5em;
+}
+
+.modalSite {
+    background-color: #e31b6d;
+    height: 0.8em;
+    width: 6.5em;
+    padding: 1em;
+    margin-left: 2.4em;
+    font-family: 'Raleway';
+    font-size: 1em;
+    color: white;
+}
+
+.modalSite i {
+    margin-right: 0.5em;
+}
+
+.modalSite i a {
+    color: white;
 }
 
 #modal1 {
