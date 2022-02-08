@@ -585,6 +585,7 @@ header.sticky {
 .learnButton {
     border: 1px solid #e31b6d;
     padding: 12px;
+    cursor: pointer;
 }
 
 .learnButton:hover {
@@ -681,6 +682,61 @@ header.sticky {
 #footer {
     margin-top: -5px;
     margin-left: 5px;
+}
+
+#overlay {
+    position: fixed;
+    background: transparent;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+}
+
+.modalCard {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.modalImg {
+    width: 40em;
+    height: 20em;
+    object-fit: contain;
+    margin-top: -1em;
+}
+
+.modalLine {
+    width: 40em;
+    height: 5px;
+    margin-top: -7px;
+    background: black;
+}
+
+.modalText {
+    background-color: #04c2c9;
+    width: 35em;
+    margin-left: 2.5em;
+}
+
+#modal1 {
+    width: 40em;
+    height: 35em;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    opacity: 1;
+    margin-top: -18em;
+    margin-left: -20em;
+    background-color: white;
+    z-index: -11;
+}
+
+hr {
+    width: 35em;
 }
 
 /* Media Queries */

@@ -146,5 +146,17 @@ function mousedOver() {
   console.log("The mouseover fired off")
 }
 
+function modal1Up () {
+  document.getElementById("modal1").style.zIndex="12"
+  document.getElementById("overlay").style.zIndex="11"
+}
+
+
+function modal1Down () {
+  console.log("overlay shed successfully")
+  document.getElementById("overlay").style.zIndex="-10"
+  document.getElementById("modal1").style.zIndex="-11"
+}
+
 
 
