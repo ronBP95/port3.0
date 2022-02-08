@@ -21,7 +21,7 @@ View Site:  [Ron's Portfolio](https://ronbp95.github.io/port3.0/index.html)
 <br>
 
 ## **About the Project**
----
+
 <br>
 
 There are a lot of great examples of portfolios that I have seen throughout my experiences with General Assembly, Linkedin, and Github but this is the design that I decided to go with.
@@ -52,7 +52,6 @@ I decided to go with building this portfolio out with HTML, CSS, and Javascript 
 <div id="roadmap"> </div>
 
 ## **Roadmap**
----
 
 <br>
 
