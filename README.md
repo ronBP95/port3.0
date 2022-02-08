@@ -45,7 +45,7 @@ Here's why:
 
 <br>
 
-I decided to go with building this portfolio out with HTML, CSS, and Javascript because I wanted to build out a single page application and did not anticipate any need for components which I had previously used in V2 of my portfolio. I also felt that using these technologies were the easiest (for me at least) to customize without the usage of node modules, libraries or any other third party assets. 
+I decided to go with building this portfolio out with **HTML**, **CSS**, and **Javascript** because I wanted to build out a single page application and did not anticipate any need for components which I had previously used in V2 of my portfolio. I also felt that using these technologies were the easiest (for me at least) to customize without the usage of node modules, libraries or any other third party assets. 
 
 <br>
 
@@ -89,7 +89,7 @@ Portfolio Design Credit to: <a href="https://findmatthew.com"> findmatthew.com <
 
 <br>
 
-Last Updated: (v1) 2-8-2022 
+Last Updated: 2-8-2022 
 
 
 
