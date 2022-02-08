@@ -11,8 +11,8 @@ View Site:  [Ron's Portfolio](https://ronbp95.github.io/port3.0/index.html)
 1. <a href="#about"> About the Project </a>
     - <a href="#built"> Built With</a>
 2. <a href="#roadmap"> Roadmap </a>
-3. <a> Contact </a>
-4. <a> Acknowledgments </a>
+3. <a href="#contact"> Contact </a>
+4. <a href="#acknowledgments"> Acknowledgments </a>
 
 
 
@@ -55,8 +55,41 @@ I decided to go with building this portfolio out with HTML, CSS, and Javascript 
 
 <br>
 
-1. Working on making the website more responsive to smaller screens and mobile devices
-2. Updating the particles.js animation. Will likely code it out by hand since the particles.js library is very taxing on CPU resources.
+1. Working on more javascript and react projects on the side to be displayed in the project filter section.
+2. Working on making the website more responsive to smaller screens and mobile devices
+3. Updating the particles.js animation. Will likely code it out by hand since the particles.js library is very taxing on CPU resources.
+
+<br>
+
+<div id="contact"> </div>
+
+## **Contact**
+
+<br>
+
+Here is some basic contact information:
+- <a href="https://www.linkedin.com/in/ron-magpantay/"> Linkedin </a> is currently the best way to reach me regarding any opportunities. 
+
+<br>
+
+<div id="acknowledgements"> </div>
+
+## **Acknowledgments**
+
+<br>
+
+This is a special thanks to everyone who believes in me and my decision to switch to Software Engineering! I work as much as I can every day to make you all proud.
+
+<br>
+
+Portfolio Design Credit to: <a href="https://findmatthew.com"> findmatthew.com </a>
+
+
+*Note:* There is an certification error when clicking the "find matthew" link. You can access the website by typing it in manually.
+
+<br>
+
+Last Updated: (v1) 2-8-2022 
 
 
 
