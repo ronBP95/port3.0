@@ -182,9 +182,7 @@
         <div class="project-container">
             <!-- box 1 (js project)-->
             <div class="projectCard">
-                <div id="cardImg">
                     <img src="images/pokemon.png" alt="box1" class="project-box js" onmouseover="mousedOver()">
-                </div>
                 <div class="content">
                     <div class="wordContent">
                         <h3>Project Pokemon</h3>
@@ -195,10 +193,28 @@
             </div>
 
             <!-- box 2 (express project)-->
-            <img src="images/placeholder.jpg" alt="box2" class="project-box express">
+            <div class="projectCard">
+                <img src="images/apod.png" alt="box2" class="project-box express">
+                <div class="content">
+                    <div class="wordContent">
+                        <h3>just APOD</h3>
+                        <p>HTML / CSS / EXPRESS</p>
+                    </div>
+                    <a onclick="modal2Up()"><p class="learnButton">LEARN MORE</p></a>
+                </div>
+            </div>
             
             <!-- box 3 (react project)-->
-            <img src="images/placeholder.jpg" alt="box3" class="project-box react">
+            <div class="projectCard">
+                <img src="images/buhay.png" alt="box2" class="project-box react">
+                <div class="content">
+                    <div class="wordContent">
+                        <h3>buhay Pomo</h3>
+                        <p>HTML / CSS / REACT</p>
+                    </div>
+                    <a onclick="modal3Up()"><p class="learnButton">LEARN MORE</p></a>
+                </div>
+            </div>
 
             <!-- box 4 -->
             <!-- <img src="images/wow.jfif" alt="box4"  class="project-box js"> -->
@@ -216,7 +232,7 @@
 
     <!-- overlays -->
 
-    <div id="overlay" onclick="modal1Down()"></div>
+    <div id="overlay1" onclick="modal1Down()"></div>
     <div class="modalCard">
         <div id="modal1">
             <img src="images/pokeModal.png" alt="box1" class="modalImg">
@@ -239,8 +255,53 @@
             </div>
         </div>
     </div>
-  
 
+    <div id="overlay2" onclick="modal2Down()"></div>
+    <div class="modalCard">
+        <div id="modal2">
+            <img src="images/apodModal.png" alt="box1" class="modalImg">
+            <div class="modalLine"></div>
+            <div class="modalText">
+                <div class="modalHeader">
+                    <h2>just APOD</h2>
+                    <h4>Display for NASA Open API Info</h4>
+                </div>
+                <hr>
+                <p> This project was created to gain experience working with API's and serving information through Express. Currently, the app only serves information from NASA's Open Api "APOD". More API's will are currently being integrated into the application over time.</p>
+            </div>
+            <div class="modalButtons">
+                <div class="buttonSep">
+                    <div class="modalSite"><i class="ei-external-link"></i><a href="https://rm-just-apod.herokuapp.com/">VIEW SITE</a></div>
+                    <div class="modalSite"><i class="ei-github"></i><a href="https://github.com/ronBP95/just_apod">SOURCE</a></div>
+                </div>
+                <i class="ea-close ei-3x" onclick="modal2Down()"></i>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay3" onclick="modal3Down()"></div>
+    <div class="modalCard">
+        <div id="modal3">
+            <img src="images/buhayModal.png" alt="box1" class="modalImg">
+            <div class="modalLine"></div>
+            <div class="modalText">
+                <div class="modalHeader">
+                    <h2>buhay Pomo</h2>
+                    <h4>Productivity Application with Widgets</h4>
+                </div>
+                <hr>
+                <p> This project is "cloned" after the productivity Pomodoro study method application developed by LifeAt Spaces. This version of the application was made from scratch to test my limits and see if I could replicate a functioning application in React.</p>
+            </div>
+            <div class="modalButtons">
+                <div class="buttonSep">
+                    <div class="modalSite"><i class="ei-external-link"></i><a href="https://buhay-pomo.herokuapp.com/">VIEW SITE</a></div>
+                    <div class="modalSite"><i class="ei-github"></i><a href="https://github.com/ronBP95/buhay_pomo">SOURCE</a></div>
+                </div>
+                <i class="ea-close ei-3x" onclick="modal3Down()"></i>
+            </div>
+        </div>
+    </div>
+  
     <!-- overlays -->
 
     <div id="contactbar">

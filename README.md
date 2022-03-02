@@ -1,21 +1,20 @@
 <div id="top"> </div>
 
 # Welcome to my Portfolio!
+
 <br>
 
-View Site:  [Ron's Portfolio](https://ronbp95.github.io/port3.0/index.html)
+View Site: [Ron's Portfolio](https://ronbp95.github.io/port3.0/index.html)
 
 <br>
 
 **Table of Contents**
 
 1. <a href="#about"> About the Project </a>
-    - <a href="#built"> Built With</a>
+   - <a href="#built"> Built With</a>
 2. <a href="#roadmap"> Roadmap </a>
 3. <a href="#contact"> Contact </a>
 4. <a href="#acknowledgments"> Acknowledgments </a>
-
-
 
 <div id="about"></div>
 
@@ -46,7 +45,7 @@ Here's why:
 
 <br>
 
-I decided to go with building this portfolio out with <u>**HTML**</u>, <u>**CSS**</u>, and <u>**Javascript**</u> because I wanted to build out a single page application and did not anticipate any need for components which I had previously used in V1/V2 of my portfolio. I also felt that using these technologies were the easiest (for me at least) to customize without the usage of node modules, libraries or any other third party assets. 
+I decided to go with building this portfolio out with <u>**HTML**</u>, <u>**CSS**</u>, and <u>**Javascript**</u> because I wanted to build out a single page application and did not anticipate any need for components which I had previously used in V1/V2 of my portfolio. I also felt that using these technologies were the easiest (for me at least) to customize without the usage of node modules, libraries or any other third party assets.
 
 <br>
 
@@ -69,7 +68,8 @@ I decided to go with building this portfolio out with <u>**HTML**</u>, <u>**CSS*
 <br>
 
 Here is some basic contact information:
-- <a href="https://www.linkedin.com/in/ron-magpantay/"> Linkedin </a> is currently the best way to reach me regarding any opportunities. 
+
+- <a href="https://www.linkedin.com/in/ron-magpantay/"> Linkedin </a> is currently the best way to reach me regarding any opportunities.
 
 <br>
 
@@ -85,20 +85,10 @@ This is a special thanks to everyone who believes in me and my decision to switc
 
 Portfolio Design Credit to: <a href="https://findmatthew.com"> findmatthew.com </a>
 
-
-*Note:* There is an certification error when clicking the "find matthew" link. You can access the website by typing it in manually.
+_Note:_ There is an certification error when clicking the "find matthew" link. You can access the website by typing it in manually.
 
 <br>
 
-Last Updated: 2-8-2022 
+Last Updated: 2-8-2022
 
 <a href="#top"> Back to Top ⬆️ </a>
-
-
-
-
-
-
-
-
-

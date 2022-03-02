@@ -147,15 +147,38 @@ function mousedOver() {
 }
 
 function modal1Up () {
-  document.getElementById("modal1").style.zIndex="12"
-  document.getElementById("overlay").style.zIndex="11"
+  document.getElementById("modal1").style.display="block"
+  document.getElementById("overlay1").style.display="block"
 }
 
 function modal1Down () {
   console.log("overlay shed successfully")
-  document.getElementById("overlay").style.zIndex="-10"
-  document.getElementById("modal1").style.zIndex="-11"
+  document.getElementById("overlay1").style.display="none"
+  document.getElementById("modal1").style.display="none"
 }
+
+function modal2Up () {
+  document.getElementById("modal2").style.display="block"
+  document.getElementById("overlay2").style.display="block"
+}
+
+function modal2Down () {
+  console.log("overlay shed successfully")
+  document.getElementById("overlay2").style.display="none"
+  document.getElementById("modal2").style.display="none"
+}
+
+function modal3Up () {
+  document.getElementById("modal3").style.display="block"
+  document.getElementById("overlay3").style.display="block"
+}
+
+function modal3Down () {
+  console.log("overlay shed successfully")
+  document.getElementById("overlay3").style.display="none"
+  document.getElementById("modal3").style.display="none"
+}
+
 
 
 
