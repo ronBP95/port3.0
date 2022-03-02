@@ -576,6 +576,10 @@ header.sticky {
   transition: 0.3s;
 }
 
+.content a {
+  color: white;
+}
+
 .content:hover {
   transition: 0.3s;
   opacity: 1;
