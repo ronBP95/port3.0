@@ -576,7 +576,7 @@ header.sticky {
   transition: 0.3s;
 }
 
-.content a {
+.content a:visited {
   color: white;
 }
 
