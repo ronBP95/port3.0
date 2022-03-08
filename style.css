@@ -20,7 +20,7 @@ a:not(.siteAnchor) {
 
 a:visited {
   text-decoration: none;
-  color: inherit;
+  color: white;
 }
 
 #particles-js {
@@ -792,6 +792,10 @@ header.sticky {
   background: white;
   transition: 0.5s;
   cursor: pointer;
+}
+
+.modalSite a:hover {
+  color: #e31b6d;
 }
 
 .modalSite i {
